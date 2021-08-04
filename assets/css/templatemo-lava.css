@@ -118,12 +118,12 @@ body {
 }
 
 ::selection {
-  background: #f1556a;
+  background: #435282;
   color: #fff;
 }
 
 ::-moz-selection {
-  background: #f1556a;
+  background: #435282;
   color: #fff;
 }
 
@@ -159,7 +159,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #f1556a;
+  background-color: #435282;
 }
 
 a.main-button {
@@ -178,7 +178,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #f1556a;
+  background-color: #435282;
 }
 
 button.main-button {
@@ -200,7 +200,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #f1556a;
+  background-color: #435282;
 }
 
 
@@ -219,7 +219,7 @@ button.main-button:hover {
 
 .center-heading h2 em {
   font-style: normal;
-  color: #f4813f;
+  color: #435282;
 }
 
 .center-heading p {
@@ -655,9 +655,9 @@ welcome
 */
 .welcome-area {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   min-height: 793px;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/mockupcana.jpg);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -680,7 +680,7 @@ welcome
 
 .welcome-area .header-text h1 em {
   font-style: normal;
-  color: #fba70b;
+  color: #435282;
 }
 
 .welcome-area .header-text p {
@@ -1158,7 +1158,7 @@ preloader
 */
 #preloader {
   overflow: hidden;
-  background-image: linear-gradient(145deg, #f4813f 0%, #f1556a 100%);
+  background-image: linear-gradient(145deg, #435282 0%, #435282 100%);
   left: 0;
   right: 0;
   top: 0;
