@@ -943,8 +943,7 @@ testimonials
   line-height: 80px;
   text-align: center;
   display: inline-block;
-  background: rgb(244,129,63);
-  background: linear-gradient(145deg, rgba(244,129,63,1) 0%, rgba(241,85,106,1) 100%);
+  background: #435282;
   position: absolute;
 }
 
