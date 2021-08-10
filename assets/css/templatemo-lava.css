@@ -608,12 +608,12 @@ welcome
 }
 
 .welcome-area .header-text .main-title {
-  font-weight: 900;
-  font-size: 52px;
-  line-height: 80px;
-  letter-spacing: 1px;
-  margin-bottom: 30px;
-  color: #191a20;
+  font-weight: 900 !important;
+  font-size: 52px !important;
+  line-height: 80px !important;
+  letter-spacing: 1px !important;
+  margin-bottom: 30px !important;
+  color: #191a20 !important;
 }
 
 .welcome-area .header-text h1 em {
