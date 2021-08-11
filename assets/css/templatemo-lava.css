@@ -806,6 +806,35 @@ testimonials
 --------------------------------------------
 */
 
+.glider-contain {
+  position: relative;
+  overflow: hidden;
+}
+
+.glider-prev,
+.glider-next {
+  position: absolute;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: none;
+  top: calc(50% - 35px);
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  background: none;
+  color: #fff;
+  opacity: 20%;
+}
+
+.glider-prev {
+  left: -30px;
+}
+
+.glider-next {
+  right: -30px;
+}
+
 .centrado {
   display: flex;
   justify-content: center;
