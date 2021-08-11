@@ -60,16 +60,18 @@ window.addEventListener('load', () => {
     }
     alert1()
 })
-{
-  const formAction = () => {
-    const form = document.getElementById('form-submit');
-    form.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const nameForm = document.getElementById('name');
-      
-      let nameValue = nameForm.value;
-      console.log(nameValue)
-    })
+
+$("#contact").on('submit', function(evt){
+  evt.preventDefault();
+  const emailForm = document.getElementById('email').value;
+  const messageForm = document.getElementById('message').value;
+
+  if(!(/\S+@\S+\.\S+/.test(emailForm))){
+    return false;
   }
-  formAction();
-}
+
+  if(messageForm.length >= 140) {
+    return false;
+  }
+
+});
