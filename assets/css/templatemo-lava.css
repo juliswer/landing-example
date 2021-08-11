@@ -543,7 +543,7 @@ header
   }
   .header-area .main-nav .nav li a:hover {
     background: #eee !important;
-    color: #fba70b!important;
+    color: #435282!important;
   }
   .header-area .main-nav .nav li.submenu ul {
     position: relative;
@@ -830,7 +830,9 @@ footer
 
 footer {
   margin-top: 200px;
-  background-image: linear-gradient(145deg, #435282 0%, #435282 100%);;
+  background: #F3904F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #435282, #ccc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #435282, #ccc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -910,7 +912,7 @@ footer .right-content {
 
 .footer-content .right-content h2 em {
   font-style: normal;
-  color: #fba70b;
+  color: #435282;
 }
 
 .footer-content .right-content p {
