@@ -826,12 +826,30 @@ testimonials
   opacity: 20%;
 }
 
+.glider-prev:hover,
+.glider-next:hover {
+  opacity: 1;
+}
+
 .glider-prev {
   left: -20px
 }
 
 .glider {
   overflow: hidden;
+}
+
+.dots .glider-dot {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: #000;
+  opacity: .2;
+  border-radius: 0;
+}
+
+.glider-dot.active {
+  background: #fff;
 }
 
 /* 
