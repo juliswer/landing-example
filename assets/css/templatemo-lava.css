@@ -115,7 +115,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #f4813f;
+  background-color: #435282;
 }
 
 button.main-button {
@@ -984,7 +984,7 @@ footer .sub-footer a {
 }
 
 footer .sub-footer a:hover {
-	color: #FC3;
+	color: #fff;
 }
 
 footer .sub-footer p {
