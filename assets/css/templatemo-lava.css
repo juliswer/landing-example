@@ -839,6 +839,15 @@ testimonials
   overflow: hidden;
 }
 
+.dots .glider-dot:hover {
+  opacity: .5;
+}
+
+.dots .glider-dot.active {
+  opacity: 1;
+  background: #435282;
+}
+
 .dots .glider-dot {
   display: block;
   width: 30px;
