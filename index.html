@@ -21,6 +21,8 @@
 
     <link rel="stylesheet" href="assets/css/owl-carousel.css">
 
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
 </head>
 
 <body>
@@ -110,10 +112,10 @@
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12"
                     data-scroll-reveal="enter bottom move 30px over 0.6s after 0.4s">
-                    <div class="features-item">
+                    <div class="features-item-special">
                         <div class="features-icon">
                             <h2>02</h2>
-                            <img src="assets/images/group.svg" alt="" style="height: 100px; width: 100px; fill: #fff;">
+                            <img src="assets/images/group.svg" alt="" style="height: 100px; width: 100px;">
                             <h4>Formá un equipo</h4>
                             <p>Crea una sociedad con un grupo de personas que sepas que te desempeñas bien.</p>
                             <a href="#testimonials" class="main-button">
@@ -196,27 +198,38 @@
                         </p>
                       </div>
                     </div>
+                    <div class="carousel">
+                        <div class="carousel__contenedor">
+
+                            <button aria-label="Anterior" class="carousel__anterior">
+                                <i class="fas fa-arrow-left"></i>
+                            </button>
+
+                            <div class="carousel__lista">
+                                <div class="carousel__elemento">
+                                    <img src="./assets/images/about-icon-01.png" alt="random image">
+                                    <p>Test 1</p>
+                                </div>
+                                <div class="carousel__elemento">
+                                    <img src="./assets/images/about-icon-02.png" alt="random image">
+                                    <p>Test 2</p>
+                                </div>
+                            </div>
+
+                            <button aria-label="Siguiente" class="carousel__siguiente">
+                                <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+
+                        <div role="tablist" class="carousel__indicadores">
+
+                        </div>
+                    </div>                      
                     <div
                       class="col-lg-12 col-md-12 col-sm-12 mobile-bottom-fix-big centrado"
                       data-scroll-reveal="enter left move 30px over 0.6s after 0.4s"
                     >
-                      <a
-                        class="twitter-timeline"
-                        style="height: 200px; width: 200px"
-                        href="https://twitter.com/Canalizados_?ref_src=twsrc%5Etfw"
-                        width="800" height="700"
-                        data-link-color="#000"
-                        data-chrome="noheader nofooter noborders transparent"  
-                        data-related="twitterapi,Twitter" data-aria-polite="assertive"
-                        lang="ES"
-                        >Tweets de la comunidad</a
-                      >
-                      <script
-                        async
-                        style="height: 200px; width: 200px"
-                        src="https://platform.twitter.com/widgets.js"
-                        charset="utf-8"
-                      ></script>
+                    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Taking in small, &lt;$10k angel checks is very common and most founders I know who have raised recently have done it (including me!)<br><br>Here&#39;s a quick guide for how to structure a party round while not destroying your entire cap table<br><br>1/ <a href="https://t.co/7zT47ltbUZ">pic.twitter.com/7zT47ltbUZ</a></p>&mdash; Alex Cohen (@anothercohen) <a href="https://twitter.com/anothercohen/status/1337163285842444289?ref_src=twsrc%5Etfw">December 10, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
             </div>
@@ -295,6 +308,8 @@
     <script src="assets/js/bootstrap.min.js"></script>
 
     <!-- Plugins -->
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/123aef3e32.js" crossorigin="anonymous"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="assets/js/owl-carousel.js"></script>
     <script src="assets/js/scrollreveal.min.js"></script>
