@@ -808,7 +808,6 @@ testimonials
 
 .glider-contain {
   position: relative;
-  overflow: hidden;
 }
 
 .glider-prev,
@@ -828,18 +827,11 @@ testimonials
 }
 
 .glider-prev {
-  left: -30px;
+  left: -20px
 }
 
-.glider-next {
-  right: -30px;
-}
-
-.centrado {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.glider {
+  overflow: hidden;
 }
 
 /* 

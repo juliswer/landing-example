@@ -67,7 +67,8 @@ window.addEventListener('load', function() {
     slidesToShow: 1,
     slidesToScroll: 1,
     scrollLock: true,
-    dots: '#resp-dots',
+    rewind: true,
+    dots: '.dots',
     arrows: {
       prev: '.glider-prev',
       next: '.glider-next'
