@@ -14,10 +14,6 @@ header, nav, section, article, aside, footer, hgroup {
   box-sizing: border-box;
 }
 
-.img-group {
-  fill: #435282;
-}
-
 html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -88,7 +84,7 @@ a.main-button-slider {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #fba70b;
+  background-color: #435282;
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
@@ -107,7 +103,7 @@ a.main-button {
   font-size: 14px;
   border-radius: 25px;
   padding: 15px 25px;
-  background-color: #f4813f;
+  background-color: #435282;
   text-transform: uppercase;
   color: #fff !important;
   font-weight: 600;
@@ -119,7 +115,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #435282;
+  background-color: #f4813f;
 }
 
 button.main-button {
@@ -192,11 +188,11 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fba70b!important;
+  color: #435282!important;
 }
 
 .background-header .nav li a.active {
-  color: #fba70b!important;
+  color: #435282!important;
 }
 
 .header-area {
@@ -273,7 +269,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #fba70b;
+  color: #435282;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -338,12 +334,12 @@ header
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background: #fba70b;
+  background: #435282;
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
   background: #fff;
-  color: #fba70b!important;
+  color: #435282!important;
   padding-left: 25px;
 }
 
