@@ -54,7 +54,7 @@ window.addEventListener('load', () => {
                   
                   Toast.fire({
                     icon: 'success',
-                    title: '¡Lionel Messi ha creado un Startup!'
+                    title: '¡Hector Suarez ha creado un Startup!'
                   })
             }, 90000);
     }
