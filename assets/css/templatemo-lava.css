@@ -599,6 +599,10 @@ welcome
   background-position: right;
   background-size: 40%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+.main-title {
+  font-family: 'Space Grotesk', sans-serif;
+}
 
 .welcome-area .header-text .left-text {
   position: relative;
