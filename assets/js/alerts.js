@@ -60,3 +60,16 @@ window.addEventListener('load', () => {
     }
     alert1()
 })
+{
+  const formAction = () => {
+    const form = document.getElementById('form-submit');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const nameForm = document.getElementById('name');
+      
+      let nameValue = nameForm.value;
+      console.log(nameValue)
+    })
+  }
+  formAction();
+}
