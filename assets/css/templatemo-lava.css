@@ -724,6 +724,7 @@ about
   transition: .5s all;
   transform: scale(1.1);
   cursor: pointer;
+  background: #343759;
 }
 
 .features-item-special{
