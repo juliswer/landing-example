@@ -721,7 +721,9 @@ about
 }
 
 .features-item:hover {
-  transform: translate(0,-50px);
+  transition: .5s all;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .features-item-special{
