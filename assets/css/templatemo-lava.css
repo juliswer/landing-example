@@ -723,7 +723,7 @@ about
 .features-item:hover {
   transition: .5s all;
   transform: scale(1.1);
-  cursor: pointer;
+  cursor: pointer
 }
 
 .features-item-special{
